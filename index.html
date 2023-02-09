@@ -44,11 +44,11 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav mx-auto text-center ">
-                            <a class="nav-link active text-white  ms-lg-4" href="#home">Top</a>
-                            <a class="nav-link ms-lg-4" href="#skills">For Everyone</a>
-                            <a class="nav-link ms-lg-4" href="#about">Benefit</a>
-                            <a class="nav-link ms-lg-4" href="#projects">Preview</a>
-                            <a class="nav-link ms-lg-4" href="#services">Penulis</a>
+                            <a class="nav-link active text-white ms-lg-4 js-scroll-trigger" href="#hero">Top</a>
+                            <a class="nav-link ms-lg-4 " href="#kata-pengantar">For Everyone</a>
+                            <a class="nav-link ms-lg-4 js-scroll-trigger" href="#manfaat-buku">Benefit</a>
+                            <a class="nav-link ms-lg-4 js-scroll-trigger" href="#pratinjau">Preview</a>
+                            <a class="nav-link ms-lg-4 js-scroll-trigger" href="#penulis-buku">Penulis</a>
                         </div>
                         <a class="text-decoration-none" href="linktree/index.html"><button id="contact"
                                 class="btn btn-light rounded-5 text-black rounded-0 d-lg-flex d-block mx-lg-0 mx-auto">Download</button></a>
@@ -631,6 +631,12 @@
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
     </script>
     <script src="components/js/app.js"></script>
+    <script type="text/javascript">
+        $('.js-scroll-trigger').click(function () {
+            $('.navbar-collapse').collapse('hide');
+        });
+    </script>
+
 </body>
 
 </html>

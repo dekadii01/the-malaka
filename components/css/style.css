@@ -33,9 +33,23 @@
     color: #F4F7FF;
 }
 
+.header {
+    transition: all 0.5s ease-in;
+}
+
+.header.sticky {
+    position: fixed;
+    background: linear-gradient(180deg, #2F364B 3.24%, #262B3D 85.73%);
+    box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
+    width: 100%;
+    z-index: 99;
+    padding: 10px 20px;
+    transition: all 0.5s ease;
+}
+
+
 .sudah-terjual {
     color: rgba(255, 255, 255, 0.6);
-    ;
 }
 
 .jumlah-download {
